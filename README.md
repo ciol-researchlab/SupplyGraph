@@ -34,3 +34,15 @@ In the temporal data, node features include production, sales orders, delivery t
 - **Sales Order**: Signifies distributor-requested quantities, pending approval from the accounts department. It reflects overall product demand.
 - **Delivery to Distributors**: Denotes dispatched products aligning with orders, impacting company revenue significantly.
 - **Factory Issue**: It covers total products shipped from manufacturing facilities, with some going to distributors and the rest to storage warehouses. 
+
+## Citation:
+
+```
+@inproceedings{supplymap2023wasi,
+      title={SupplyGraph: A Benchmark Dataset for Supply Chain Planning using Graph Neural Networks}, 
+      author={Azmine Toushik Wasi and MD Shafikul Islam, and Adipto Raihan Akib},
+      year={2023},
+      booktitle={4th workshop on Graphs and more Complex structures for Learning and Reasoning, 38th Annual AAAI Conference on Artificial Intelligence},
+      url={https://github.com/CIOL-SUST/SupplyGraph/},
+}
+```
