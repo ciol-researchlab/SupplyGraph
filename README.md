@@ -20,23 +20,8 @@
 
 ---
 
-## Data Collection
-
-We obtained data from the central database system of one of the biggest and most prominent FMCG (Fast Moving Consumer Goods) companies in Bangladesh. We reorganize it for temporal graph utilization, extracting nodes and features. We are unable to publish the actual product names, product codes, and the name of the company, as doing so could potentially compromise the competitive standing of the concerned company. Table \ref{tab:datasets} summarizes the dataset information.
-
-**Quality Control:** Each individual node, edge, and node feature undergoes a thorough manual examination and validation process. This involves scrutinizing the data for any irregularities, such as anomalies or missing information. Additionally, even zero values are meticulously reviewed to ensure their accuracy and legitimacy.
-
-**Feature Description:** In this dataset, **nodes** pertain to distinct products, while **edges** represent various connections linking these products: same product group or sub-group, same plant or storage location.
-
-In the temporal data, node features include production, sales orders, delivery to distributors, and factory issues.
-
-- **Production**: Quantifies product output considering sales orders, customer demand, vehicle fill rate, and delivery urgency. This quantity is typically measured in units or Metric Tons.
-- **Sales Order**: Signifies distributor-requested quantities, pending approval from the accounts department. It reflects overall product demand.
-- **Delivery to Distributors**: Denotes dispatched products aligning with orders, impacting company revenue significantly.
-- **Factory Issue**: It covers total products shipped from manufacturing facilities, with some going to distributors and the rest to storage warehouses. 
 
 ## Citation:
-
 ```
 @inproceedings{supplymap2023wasi,
       title={SupplyGraph: A Benchmark Dataset for Supply Chain Planning using Graph Neural Networks}, 
