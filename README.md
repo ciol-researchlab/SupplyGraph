@@ -16,7 +16,7 @@
 
 ---
 
-![](fig\1-formulation.png)
+![](./fig/1-formulation.png)
 
 ---
 
