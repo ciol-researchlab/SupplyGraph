@@ -4,6 +4,15 @@
 
 ---
 
+<div align=center>
+
+[![website](https://img.shields.io/badge/-Website-blue?style=flat-square&logo=rss&color=1f1f15)](https://CIOL-SUST.github.io/works/SupplyGraph/) 
+[![linkedin](https://img.shields.io/badge/LinkedIn-%320beff?style=flat-square&logo=linkedin&color=1f1f18)](https://www.linkedin.com/posts/ciol-ipe-sust_aaai2024-aaai-machinelearning-activity-7140232506779365376-8Tg6)
+
+</div>
+
+---
+
 📌 TL;DR: *This paper introduces a real-world graph dataset empowering researchers to leverage GNNs for supply chain problem-solving, enhancing production planning capabilities, with benchmark scores on six homogeneous graph tasks.*
 
 ---
