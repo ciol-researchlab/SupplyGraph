@@ -7,6 +7,7 @@
 <div align=center>
 
 [![website](https://img.shields.io/badge/-Website-blue?style=flat-square&logo=rss&color=1f1f15)](https://CIOL-SUST.github.io/works/SupplyGraph/) 
+[![Kaggle](https://img.shields.io/badge/Kaggle-%320beff?style=flat-square&logo=kaggle&color=1f1f18)](https://www.kaggle.com/datasets/azminetoushikwasi/supplygraph-supply-chain-planning-using-gnns/data)
 [![linkedin](https://img.shields.io/badge/LinkedIn-%320beff?style=flat-square&logo=linkedin&color=1f1f18)](https://www.linkedin.com/posts/ciol-ipe-sust_aaai2024-aaai-machinelearning-activity-7140232506779365376-8Tg6)
 
 </div>
