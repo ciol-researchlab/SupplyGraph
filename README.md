@@ -42,4 +42,14 @@
       booktitle={4th workshop on Graphs and more Complex structures for Learning and Reasoning, 38th Annual AAAI Conference on Artificial Intelligence},
       url={https://github.com/CIOL-SUST/SupplyGraph/},
 }
+
+or,
+@misc{wasi2024supplygraph,
+      title={SupplyGraph: A Benchmark Dataset for Supply Chain Planning using Graph Neural Networks}, 
+      author={Azmine Toushik Wasi and MD Shafikul Islam and Adipto Raihan Akib},
+      year={2024},
+      eprint={2401.15299},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
