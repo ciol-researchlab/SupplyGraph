@@ -41,6 +41,7 @@
       year={2023},
       booktitle={4th workshop on Graphs and more Complex structures for Learning and Reasoning, 38th Annual AAAI Conference on Artificial Intelligence},
       url={https://github.com/CIOL-SUST/SupplyGraph/},
+      doi={10.48550/arXiv.2401.15299}
 }
 
 or,
