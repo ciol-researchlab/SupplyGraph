@@ -32,19 +32,13 @@
 
 ---
 
+For coding instructions, check `code\coding_directions.md`
+
+
+---
 
 ## Citation:
 ```
-@inproceedings{supplymap2023wasi,
-      title={SupplyGraph: A Benchmark Dataset for Supply Chain Planning using Graph Neural Networks}, 
-      author={Azmine Toushik Wasi and MD Shafikul Islam and Adipto Raihan Akib},
-      year={2023},
-      booktitle={4th workshop on Graphs and more Complex structures for Learning and Reasoning, 38th Annual AAAI Conference on Artificial Intelligence},
-      url={https://github.com/CIOL-SUST/SupplyGraph/},
-      doi={10.48550/arXiv.2401.15299}
-}
-
-or,
 @misc{wasi2024supplygraph,
       title={SupplyGraph: A Benchmark Dataset for Supply Chain Planning using Graph Neural Networks}, 
       author={Azmine Toushik Wasi and MD Shafikul Islam and Adipto Raihan Akib},
