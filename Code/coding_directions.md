@@ -1,4 +1,4 @@
-# Using **SupplyGraph** Dataset for Homogeneous Temporal Graphs
+# Using **SupplyGraph** Dataset for Temporal Graphs
 
 This guide provides step-by-step directions for using the **SupplyGraph** dataset in building a homogeneous temporal graph using the *PyTorch Geometric Temporal* library. In this example, we will use production data as node features and connect nodes based on common production plants. This is just an example, we do not want to limit the applications by providing solution of a fixed problem.
 
@@ -7,7 +7,7 @@ This guide provides step-by-step directions for using the **SupplyGraph** datase
 - **Edges**: Products produced in the same plant are connected by edges. The edges represent the commonality of production locations.
   
 ### 2. Install and Load the Temporal Graph Library
-We will use the *PyTorch Geometric Temporal* library. You can install it using the following command:
+We will use the [*PyTorch Geometric Temporal*](https://pytorch-geometric-temporal.readthedocs.io/) library. You can install it using the following command:
 
 ```bash
 !pip install torch-geometric-temporal
@@ -80,21 +80,21 @@ train_dataset, test_dataset = temporal_signal_split(dataset, train_ratio=0.8)
 This will split 80% of the data for training and 20% for testing.
 
 ### 9. Define and Load a Model
-We will use the `DCRNN` model from the *PyTorch Geometric Temporal* library. Here is an example model class:
+We will use the `GCLSTM` model from the *PyTorch Geometric Temporal* library. Here is an example model class:
 
 ```python
 import torch
 import torch.nn.functional as F
-from torch_geometric_temporal.nn.recurrent import DCRNN
+from torch_geometric_temporal.nn.recurrent import GCLSTM
 
 class RecurrentGCN(torch.nn.Module):
     def __init__(self, node_features):
         super(RecurrentGCN, self).__init__()
-        self.recurrent = DCRNN(node_features, 32, 1)   # Define the recurrent layer
+        self.recurrent = GCLSTM(node_features, 32, 1)   # Define the recurrent layer
         self.linear = torch.nn.Linear(32, 1)           # Final linear layer
 
     def forward(self, x, edge_index, edge_weight):
-        h = self.recurrent(x, edge_index, edge_weight)  # Forward pass through DCRNN
+        h = self.recurrent(x, edge_index, edge_weight)  # Forward pass through GCLSTM
         h = F.relu(h)                                  # Apply ReLU activation
         h = self.linear(h)                             # Pass through linear layer
         return h
@@ -133,3 +133,6 @@ In this loop:
 - The Mean Squared Error (MSE) between the predicted output and actual target is calculated and minimized using gradient descent.
 
 You can adjust the number of epochs and learning rate to fine-tune the training process.
+
+### 12. Heterogeneous modeling
+For heterogeneous modeling, [check this](https://pytorch-geometric-temporal.readthedocs.io/en/latest/modules/signal.html)! Follow instructions, change code as necessary to build dataset and model.
