@@ -26,10 +26,6 @@
 
 ---
 
-### Accepted in [4th workshop on Graphs and more Complex structures for Learning and Reasoning (GCLR Workshop)](https://sites.google.com/view/gclr2024/), [AAAI'24 (38th Annual AAAI Conference on Artificial Intelligence)](https://aaai.org/aaai-conference/).
-
----
-
 ![](./fig/1-formulation.png)
 
 ---
@@ -48,17 +44,5 @@ For coding instructions, check `code\coding_directions.md`
       eprint={2401.15299},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
-}
-```
-or, 
-```
-@misc{wasi2024graphneuralnetworkssupply,
-      title={Graph Neural Networks in Supply Chain Analytics and Optimization: Concepts, Perspectives, Dataset and Benchmarks}, 
-      author={Azmine Toushik Wasi and MD Shafikul Islam and Adipto Raihan Akib and Mahathir Mohammad Bappy},
-      year={2024},
-      eprint={2411.08550},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2411.08550}, 
 }
 ```
