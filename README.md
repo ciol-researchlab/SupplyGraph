@@ -1,7 +1,5 @@
 # SupplyGraph: A Benchmark Dataset for Supply Chain Planning using Graph Neural Networks
-- Authors: [**Azmine Toushik Wasi**](https://azminewasi.github.io/), [**MD Shafikul Islam**](https://www.linkedin.com/in/md-shafikul-islam-sohan/), and [**Adipto Raihan Akib**](https://www.linkedin.com/in/adipto-raihan-akib-739729117/) 
-- Affiliation: [**Computational Intelligence and Operations Lab - CIOL**](https://ciol-sust.github.io/), SUST
-- Updated and Extended version: Graph Neural Networks in Supply Chain Analytics and Optimization: Concepts, Perspectives, Dataset and Benchmarks : [GitHub](https://github.com/ciol-researchlab/SCG) | [arXiv](https://arxiv.org/abs/2411.08550)
+- Authors: [**Azmine Toushik Wasi**](https://azminewasi.github.io/), [**MD Shafikul Islam**](https://www.linkedin.com/in/md-shafikul-islam-sohan/), and [**Adipto Raihan Akib**](https://www.linkedin.com/in/adipto-raihan-akib-739729117/), Mahathir M. Bappy
 
 ---
 
