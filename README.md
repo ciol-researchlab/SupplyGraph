@@ -5,12 +5,8 @@
 
 <div align=center>
 
-[![website](https://img.shields.io/badge/-Website-blue?style=flat-square&logo=rss&color=1f1f15)](https://CIOL-SUST.github.io/works/SupplyGraph/) 
 [![arxiv](https://img.shields.io/badge/-arXiv-blue?style=flat-square&logo=arxiv&color=1f1f15)](https://arxiv.org/abs/2401.15299) 
-[![arxiv](https://img.shields.io/badge/-PDF-blue?style=flat-square&logo=arxiv&color=1f1f15)](https://arxiv.org/pdf/2401.15299.pdf) 
 [![Kaggle](https://img.shields.io/badge/Kaggle-%320beff?style=flat-square&logo=kaggle&color=1f1f18)](https://www.kaggle.com/datasets/azminetoushikwasi/supplygraph-supply-chain-planning-using-gnns/data)
-[![linkedin](https://img.shields.io/badge/LinkedIn-%320beff?style=flat-square&logo=linkedin&color=1f1f18)](https://www.linkedin.com/posts/ciol-ipe-sust_aaai2024-aaai-machinelearning-activity-7140232506779365376-8Tg6)
-[![arXiv](https://img.shields.io/badge/arXiv-2411.08550-red.svg)](https://arxiv.org/abs/2411.08550)
 
 </div>
 
@@ -20,11 +16,10 @@
 
 ---
 
-**Abstract:** Graph Neural Networks (GNNs) have gained traction across different domains such as transportation, bio-informatics, language processing, and computer vision. However, there is a noticeable absence of research on applying GNNs to supply chain networks. Supply chain networks are inherently graph-like in structure, making them prime candidates for applying GNN methodologies. This opens up a world of possibilities for optimizing, predicting, and solving even the most complex supply chain problems. A major setback in this approach lies in the absence of real-world benchmark datasets to facilitate the research and resolution of supply chain problems using GNNs. To address the issue, we present a real-world benchmark dataset for temporal tasks, obtained from one of the leading FMCG companies in Bangladesh, focusing on supply chain planning for production purposes. The dataset includes temporal data as node features to enable sales predictions, production planning, and the identification of factory issues. By utilizing this dataset, researchers can employ GNNs to address numerous supply chain problems, thereby advancing the field of supply chain analytics and planning.
-
----
-
-![](./fig/1-formulation.png)
+**Abstract:** Graph Neural Networks (GNNs) have recently gained traction in transportation, bioinformatics, language and image processing, but research on their application to supply chain management remains limited. Supply chains are inherently graph-like, making them ideal for GNN methodologies, which can optimize and solve complex problems. 
+The barriers include a lack of proper conceptual foundations, familiarity with graph applications in SCM, and real-world benchmark datasets for GNN-based supply chain research. To address this, we present a multi-perspective real-world benchmark dataset from a leading FMCG company in Bangladesh, focusing on supply chain planning.
+We discuss various supply chain tasks using GNNs and benchmark several state-of-the-art models on homogeneous and heterogeneous graphs across six supply chain analytics tasks using this dataset. Our analysis shows that GNN-based models consistently outperform statistical Machine Learning and other Deep Learning models by around 10-30% in regression, 10-30% in classification and detection tasks, and 15-40% in anomaly detection tasks on designated metrics.
+With this work, we lay the groundwork for solving supply chain problems using GNNs, supported by conceptual discussions, methodological insights, and a comprehensive dataset.
 
 ---
 
