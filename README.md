@@ -1,5 +1,5 @@
 # SupplyGraph: A Benchmark Dataset for Supply Chain Planning using Graph Neural Networks
-- Authors: [**Azmine Toushik Wasi**](https://azminewasi.github.io/), [**MD Shafikul Islam**](https://www.linkedin.com/in/md-shafikul-islam-sohan/), and [**Adipto Raihan Akib**](https://www.linkedin.com/in/adipto-raihan-akib-739729117/), Mahathir M. Bappy
+- Authors: [**Azmine Toushik Wasi**](https://azminewasi.github.io/), [**MD Shafikul Islam**](https://www.linkedin.com/in/md-shafikul-islam-sohan/), and [**Adipto Raihan Akib**](https://www.linkedin.com/in/adipto-raihan-akib-739729117/)
 
 ---
 
